@@ -38,7 +38,7 @@ export default function App() {
   const handleSelect = (gender) => {
     setSelected(gender);
     setTimeout(() => {
-      window.location.href = 'https://kai-avantia.vercel.app';
+      window.location.href = 'https://kai-avantia.vercel.app?from=quiz';
     }, 400);
   };
 
