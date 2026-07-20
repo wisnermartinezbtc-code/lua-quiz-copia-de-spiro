@@ -37,10 +37,8 @@ export default function App() {
 
   const handleSelect = (gender) => {
     setSelected(gender);
-    // TODO: Navegar al siguiente paso del quiz tras selección
     setTimeout(() => {
-      alert(`Seleccionaste: ${gender === "male" ? "Hombre" : "Mujer"}. Aquí continuaría el quiz de Lua.`);
-      setSelected(null);
+      window.location.href = 'https://kai-avantia.vercel.app';
     }, 400);
   };
 
